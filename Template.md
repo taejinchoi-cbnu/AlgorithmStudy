@@ -199,6 +199,60 @@ function solution(n, m, matrix) {
 - 나머지: n개의 줄에 각각 m개의 값
 - `matrix[i][j]`로 접근 (i: 행 인덱스, j: 열 인덱스)
 
+### 6. 입력이 없는 문제 (테스트/구현)
+
+```js
+// 입력이 없는 문제 템플릿
+// 주로 구현 문제나 알고리즘 테스트에 사용
+
+// 전역 변수나 상수 정의
+const N = 10;
+const arr = [1, 2, 3, 4, 5];
+
+// 메인 실행 함수
+function main() {
+    console.log("=== 테스트 시작 ===");
+    
+    // 테스트 케이스 실행
+    test1();
+    test2();
+    
+    console.log("=== 테스트 완료 ===");
+}
+
+// 테스트 함수 1
+function test1() {
+    console.log("Test 1:");
+    // 테스트 로직
+    const result = solution(arr);
+    console.log("결과:", result);
+}
+
+// 테스트 함수 2
+function test2() {
+    console.log("\nTest 2:");
+    // 다른 테스트 케이스
+    const testCase = [5, 4, 3, 2, 1];
+    const result = solution(testCase);
+    console.log("결과:", result);
+}
+
+// 솔루션 함수
+function solution(input) {
+    // 문제 해결 로직
+    return input;
+}
+
+// 프로그램 실행
+main();
+```
+
+**설명**: 백준에서 입력이 주어지지 않고 특정 로직만 구현하는 문제나, 로컬에서 알고리즘을 테스트할 때 사용합니다.
+- `main()` 함수가 프로그램의 진입점
+- 테스트 케이스를 여러 함수로 분리하여 관리
+- 입력 처리 부분이 없어 바로 실행 가능
+- `node filename.js`로 실행
+
 ---
 
 ## 🔧 자주 사용하는 유틸리티 함수
