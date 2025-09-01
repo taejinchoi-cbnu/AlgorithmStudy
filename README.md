@@ -43,11 +43,10 @@
 
 ### ⚠️ VSCode에서 Copilot 비활성화 (중요!)
 
-알고리즘 문제 풀이 시 자동 완성 기능을 끄고 진행해야 합니다.
+알고리즘 문제 풀이 시 자동 완성 기능을 끄고 진행
 
 1. `Ctrl + Shift + P` 입력
 2. `disable copilot completions` 검색
 3. `GitHub Copilot: Toggle Completions` 선택하여 비활성화
-4. 알고리즘 문제 풀이 완료 후 다시 활성화
 
 ---
