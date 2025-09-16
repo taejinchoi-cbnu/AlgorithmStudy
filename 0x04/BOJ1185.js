@@ -1,15 +1,3 @@
-/*
-원형 큐인가?
-N개의 원소를 원형 큐로 만들고 K만큼 next를 제거한다?
-1. N K 입력
-2. 1부터 N까지의 연속된 자연수로 이루어진 원형 큐 생성
-3. 원형 큐에서 1부터 next (한바퀴 돈 경우 생각) 제거하고 제거한 것들을 res 배열 혹은 변수에 넣기
-
----
-
-1. 근데 그냥 순열 만들고 출력만 하면 되는거 아님? 굳이 삭제를?
-*/
-
 const readline = require('readline');
 const rl = readline.createInterface({
   input: process.stdin,
